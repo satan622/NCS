@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">NoiseControlSystem</string>
+    <string-array name="planets_array">
+        <item>101호</item>
+        <item>102호</item>
+        <item>103호</item>
+        <item>104호</item>
+        <item>105호</item>
+        <item>201호</item>
+        <item>202호</item>
+        <item>203호</item>
+        <item>204호</item>
+        <item>205호</item>
+        <item>301호</item>
+        <item>302호</item>
+        <item>303호</item>
+        <item>304호</item>
+        <item>305호</item>
+    </string-array>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp">
+
+        <Spinner
+            android:background="#CFD8DC"
+            android:gravity="center"
+            android:id="@+id/chat_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <!-- A RecyclerView with some commonly used attributes -->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/my_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:scrollbars="vertical" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:id="@+id/Linear"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:background="#F5F5F5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.98"
+            android:textSize="14dp"
+            android:text=""
+            android:padding="11dp"/>
+
+        <Button
+            android:id="@+id/button123"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.02"
+            android:background="#009688"
+            android:text="전송"
+            android:textColor="#EEEEEE" />
+
+    </LinearLayout>
+</LinearLayout>
